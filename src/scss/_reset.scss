@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+body{
+    font: $font-weight-regular $normal-font-size/20px $font-family;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: $black-color;
+}
+h1{
+    font-size: $h1-font-size;
+    font-weight: $font-weight-bold;
+}
+h2{
+    font-size: $h2-font-size;
+    font-weight: $font-weight-bold;
+}
+h3{
+    font-size: $h3-font-size;
+    font-weight: $font-weight-bold;
+}
+h4{
+    font-size: $h4-font-size;
+    font-weight: $font-weight-bold;
+}
+h5{
+    font-size: $h5-font-size;
+    font-weight: $font-weight-bold;
+}
+#wrapper{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.container{
+    max-width: 1300px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
