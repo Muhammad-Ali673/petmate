@@ -11,5 +11,41 @@
 <body>
     <div id="wrapper">
         <header id="header">
-
+            <section id="top-head-news">
+                <div class="container">
+                    <span>FREE SHIPPING FOR ORDER ABOVE $200. SHOP NOW!</span>
+                </div>
+            </section>
+            <section id="user-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 company-contact-number">
+                            <img src="src/images/el_gato_icon.webp" alt="">
+                            <span>CALL US AT : <a href="tel">0123-456-789</a>
+                        </div>
+                        <div class="col-4 company-logo-wrap">
+                            <img src="src/images/logo.png" alt="">
+                        </div>
+                        <div class="col-4 user-nav-section">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                                <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                                <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="web-main-nav">
+                <div class="container">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Collections</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About us</a></li>
+                    </ul>
+                </div>
+            </section>
         </header>
