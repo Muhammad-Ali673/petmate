@@ -5,11 +5,11 @@ const minify = require('gulp-minify');
 gulp.task('style', ()=>{
     return gulp.src('src/scss/index.scss')
     .pipe(sass({outputStyle:'compressed'}).on('error', sass.logError))
-    .pipe(gulp.dest('style/css'))
+    .pipe(gulp.dest('src/css'))
 })
 
 gulp.task('watch', () => {
-    return gulp.watch('src/scss/index.scss', (done)=>{
+    return gulp.watch('src/scss/*.scss', (done)=>{
         gulp.series(['style']) (done)
     })
 })
