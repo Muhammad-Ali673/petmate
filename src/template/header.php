@@ -73,20 +73,23 @@
             <section id="user-login-register-form">
                 <div class="container">
                     <div class="form-wrap">
-                        <div class="btn-wrap row">
-                            <button class="col-6">LOGIN</button>
-                            <button class="col-6">REGISTER</button>
+                        <div class="btn-cover-wrap">
+                            <div class="btn-cover row">
+                                <button class="col-6">LOGIN</button>
+                                <button class="col-6">REGISTER</button>
+                            </div>
+                            <div class="btn-bg"></div>
                         </div>
-                        <form action="" class="login-form">
+                        <form action="" class="login-form user-form-wrap">
                             <span>Insert your information:</span>
                             <label for="email">Email Address</label>
                             <input type="email" name="email" id="">
                             <label for="password">Password</label>
                             <input type="password" name="" id="">
-                            <a href="">Forgot Your Password</a>
+                            <a href="">Forgot Your Password?</a>
                             <button>Log in</button>
                         </form>
-                        <form action="" class="register-form">
+                        <form action="" class="register-form user-form-wrap">
                             <span>Create Your Account</span>
                             <label for="email">Email Address</label>
                             <input type="email" name="email" id="">
