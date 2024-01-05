@@ -133,6 +133,7 @@
                 .btn-cover{
                     z-index: 99;    
                     position: inherit;
+                    text-align: center;
                     button{
                         background: none;
                         border: none;
@@ -149,6 +150,7 @@
                     height: 44px;
                     border-radius: 4px;
                     background-color: $base-color;
+                    transition: 0.5s all ease;
                 }
             }
             .user-form-wrap{
@@ -168,6 +170,12 @@
                     width: 100%;
                     padding: 10px 20px;
                     margin-bottom: 10px;
+                    border: 1px solid rgba($color: #727272, $alpha: 0.4);
+                    border-radius: 3px;
+                    transition: 0.3s all ease;
+                    &:focus{
+                        border: 1px solid rgba($color: $secondary-color, $alpha: 1);
+                    }
                 }
                 button{
                     width: 100%;
@@ -178,6 +186,13 @@
                     color: $base-color;
                     cursor: pointer;
                     margin: 10px 0;
+                    transition: 0.2s all ease;
+                    &:hover,:focus{
+                        background-color: $secondary-color;
+                    }
+                }
+                p{
+                    display: inline-block;
                 }
             }
         }

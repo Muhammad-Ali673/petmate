@@ -75,8 +75,12 @@
                     <div class="form-wrap">
                         <div class="btn-cover-wrap">
                             <div class="btn-cover row">
-                                <button class="col-6">LOGIN</button>
-                                <button class="col-6">REGISTER</button>
+                                <div class="col-6">
+                                    <button>LOGIN</button>
+                                </div>
+                                <div class="col-6">
+                                    <button>REGISTER</button>
+                                </div>
                             </div>
                             <div class="btn-bg"></div>
                         </div>
