@@ -114,4 +114,87 @@
             }
         }
     }
+    #user-login-register-form{
+        background-color: rgba($color: #0a0a0a, $alpha: 0.7);
+        padding: 18px 0;
+        .form-wrap{
+            max-width: 450px;
+            padding: 30px;
+            margin: 0 auto;
+            background-color: $base-color;
+            border-radius: 12px;
+            .btn-cover-wrap{
+                padding: 25px;
+                background: rgb(177,68,0);
+                background: linear-gradient(90deg, rgba(177,68,0,1) 0%, rgba(255,81,0,1) 35%, rgba(236,255,0,1) 100%);
+                border-radius: 8px;
+                position: relative;
+                margin-bottom: 30px;
+                .btn-cover{
+                    z-index: 99;    
+                    position: inherit;
+                    text-align: center;
+                    button{
+                        background: none;
+                        border: none;
+                        font-weight: $font-weight-bold;
+                        cursor: pointer;
+                    }
+                }
+                .btn-bg{
+                    position: absolute;
+                    top: 50%;
+                    left: 12px;
+                    transform: translateY(-50%);
+                    width: 45%;
+                    height: 44px;
+                    border-radius: 4px;
+                    background-color: $base-color;
+                    transition: 0.5s all ease;
+                }
+            }
+            .user-form-wrap{
+                span{
+                    font-size: 13px;
+                    font-weight: $font-weight-bold;
+                    display: block;
+                    margin-bottom: 30px;
+                }
+                label{
+                    display: block;
+                    margin-bottom: 7px;
+                    font-size: 12px;
+                    font-weight: $font-weight-semi-bold;
+                }
+                input[type='text'], input[type='password'], input[type='email']{
+                    width: 100%;
+                    padding: 10px 20px;
+                    margin-bottom: 10px;
+                    border: 1px solid rgba($color: #727272, $alpha: 0.4);
+                    border-radius: 3px;
+                    transition: 0.3s all ease;
+                    &:focus{
+                        border: 1px solid rgba($color: $secondary-color, $alpha: 1);
+                    }
+                }
+                button{
+                    width: 100%;
+                    padding: 20px;
+                    border-radius: 8px;
+                    background-color: $black-color;
+                    border: none;
+                    color: $base-color;
+                    cursor: pointer;
+                    margin: 10px 0;
+                    transition: 0.2s all ease;
+                    &:hover,:focus{
+                        background-color: $secondary-color;
+                    }
+                }
+                p{
+                    display: inline-block;
+                }
+            }
+        }
+    }
 }

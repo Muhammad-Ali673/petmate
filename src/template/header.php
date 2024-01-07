@@ -23,7 +23,7 @@
                     <div class="row">
                         <div class="col-4 company-contact-number">
                             <img src="src/images/el_gato_icon.webp" alt="">
-                            <span>CALL US AT : <a href="tel">0123-456-789</a>
+                            <span>CALL US AT : <a href="tel:0123-456-789">0123-456-789</a>
                         </div>
                         <div class="col-4 company-logo-wrap">
                             <a href="">
@@ -68,6 +68,46 @@
                             <li><a href="">About us</a></li>
                         </ul>
                     </nav>
+                </div>
+            </section>
+            <section id="user-login-register-form">
+                <div class="container">
+                    <div class="form-wrap">
+                        <div class="btn-cover-wrap">
+                            <div class="btn-cover row">
+                                <div class="col-6">
+                                    <button>LOGIN</button>
+                                </div>
+                                <div class="col-6">
+                                    <button>REGISTER</button>
+                                </div>
+                            </div>
+                            <div class="btn-bg"></div>
+                        </div>
+                        <form action="" class="login-form user-form-wrap">
+                            <span>Insert your information:</span>
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="">
+                            <label for="password">Password</label>
+                            <input type="password" name="" id="">
+                            <a href="">Forgot Your Password?</a>
+                            <button>Log in</button>
+                        </form>
+                        <form action="" class="register-form user-form-wrap">
+                            <span>Create Your Account</span>
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="first-name" id="">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="last-name">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="">
+                            <input type="checkbox" name="newsletter" id="">
+                            <p>Sign up for our newsletter</p>
+                            <button>Register</button>
+                        </form>
+                    </div>
                 </div>
             </section>
         </header>
